@@ -247,7 +247,7 @@
     if($accountType -le 3){ # X percent chance of being a service account
     #service
     $nameSuffix = "SA"
-    $description = 'Created with secframe.com/badblood.'
+    $description = 'ad-ttacks.com'
     #removing do while loop and making random number range longer, sorry if the account is there already
     # this is so that I can attempt to import multithreading on user creation
     
@@ -266,7 +266,7 @@
         
         
     #Need to figure out how to do the L attribute
-    $description = 'Created with secframe.com/badblood.'
+    $description = 'ad-ttacks.com'
     $pwd = New-SWRandomPassword -MinPasswordLength 22 -MaxPasswordLength 25
     #======================================================================
     # 
